@@ -21,3 +21,14 @@ function changeRadio() {
     }
     
 }
+
+function choiceFruit() {
+    var like = document.getElementsByName('fruit');
+    
+    for (var i = 0; i < like.length; i++) {
+        if (like[i].checked) {
+           alert('you choiced ' + like[i].value + ' fruit');
+        }
+    }
+    
+}
