@@ -10,3 +10,14 @@ if (checkbox.checked) {
 }
     
 }
+
+function changeRadio() {
+    var radio = document.getElementsByName('rad');
+    
+    for(var i = 0; i < radio.length; i++) {
+        if (radio[i].checked) {
+            alert('checked ' + i + ' element');
+        }
+    }
+    
+}
