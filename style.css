@@ -1,0 +1,25 @@
+#choice {
+    max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#choice div:first-child {
+    text-align: center;
+}
+
+#choice div:nth-child(2) {
+    display: flex;
+    flex-flow: row;
+}
+
+#choice div:nth-child(3) {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#choice div p {
+    font-size: 2em;
+}
