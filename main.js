@@ -1,15 +1,15 @@
-function changeCheckbox() {
+// function changeCheckbox() {
     
-var checkbox;
-checkbox = document.getElementById('check');
+//var checkbox;
+//checkbox = document.getElementById('check');
 
-if (checkbox.checked) {
-    alert('yes');
-} else {
-    alert('no');
-}
+//if (checkbox.checked) {
+//    alert('yes');
+//} else {
+//    alert('no');
+//}
     
-}
+//}
 
 function changeRadio() {
     var radio = document.getElementsByName('rad');
