@@ -13,7 +13,7 @@ function createEmail(to, from, object, message) {
 createEmail('jhon@mail.ru', 'jane@mail.ru', 'hello', 'how are you doing?');
 
 function add(x, y) {
-    console.log(x + ' + ' + y + ' = ' + (x + y));
+    console.log(x + ' + ' + y + ' = ' + (parseInt(x) + parseInt(y)));
 }
 
-add(2, 3);
+add('2', '3');
