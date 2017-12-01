@@ -1,4 +1,6 @@
-let staticlangueges = ["c", "c++", "java"];
+let staticlanguages = ["c", "c++", "java"];
 let dynamiclanguages = ["javaScript", "PHP", "Ruby"];
 
-let languages = ["c#","python"];
+let languages = [...staticlanguages, "c#", ...dynamiclanguages, "python"];
+
+console.log(languages);
