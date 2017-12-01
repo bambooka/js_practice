@@ -12,3 +12,5 @@ function add(a, b, c) {
 }
 
 var numbers = [1, 2, 3];
+
+add.apply(undefined, numbers);
