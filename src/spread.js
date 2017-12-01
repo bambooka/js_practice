@@ -10,3 +10,5 @@ function add(a, b, c) {
 }
 
 let numbers = [1, 2, 3];
+
+add(...numbers);
