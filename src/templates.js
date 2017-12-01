@@ -14,3 +14,9 @@ function createEmail(to, from, object, message) {
 }
 
 createEmail('jhon@mail.ru', 'jane@mail.ru', 'hello', 'how are you doing?');
+
+function add(x,y) {
+    console.log(`${x} + ${y} = ${x + y}`);
+}
+
+add(2,3);
