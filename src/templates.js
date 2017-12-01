@@ -20,3 +20,11 @@ function add(x,y) {
 }
 
 add('2','3');
+
+let name = 'billbo';
+
+console.log(upperName`Hello ${name}`);
+
+function upperName (literals, value) {
+    return literals[0] + value.toUpperCase();
+}
