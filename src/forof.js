@@ -8,7 +8,7 @@ for(let browser in browsers) {
 }
 
 // code with loop for..of
-//
+//will be showed value
 
 let browsersOf = ['Chrome', 'Opera', 'Safari', 'Edge'];
 

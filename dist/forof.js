@@ -10,7 +10,7 @@ for (var browser in browsers) {
 }
 
 // code with loop for..of
-//
+//will be showed value
 
 var browsersOf = ['Chrome', 'Opera', 'Safari', 'Edge'];
 
